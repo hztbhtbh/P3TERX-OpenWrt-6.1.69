@@ -12,7 +12,7 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/coolsnowwolf/lede/tree/9d124b993644b4f77749788936c44ca0c884f184
   REPO_BRANCH: master
 
 on:
