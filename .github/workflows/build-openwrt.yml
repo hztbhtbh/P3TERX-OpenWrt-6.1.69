@@ -9,7 +9,6 @@
 #
 
 name: Build OpenWrt
-run: make KERNEL_VERSION=5.15.105
 
 on:
   repository_dispatch:
