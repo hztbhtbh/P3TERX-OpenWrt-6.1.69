@@ -36,7 +36,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-           
+    timeout-minutes: 360 # 自己加时间  
+    
     steps:
 
     - name: Free Disk Space (Ubuntu)
