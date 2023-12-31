@@ -32,7 +32,11 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-   
+
+jobs:
+ build:
+  runs-on: ubuntu-latest
+
     steps:
 
     - name: Free Disk Space (Ubuntu)
